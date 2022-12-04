@@ -1,0 +1,37 @@
+<div class="main-menu">
+  <div class="main-menu-container">
+    <div class="left-section">
+      <div class="site-log">AviaMaker</div>
+    </div>
+  
+    <div class="center-section">
+      <div class="navigation-items">
+        <div
+          *ngFor="let navigationItem of navigationItems"
+          class="navigation-item"
+          [routerLink]="navigationItem.route"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]= "{exact: true}"
+        >
+          <img class="navigation-item-icon" [src]="navigationItem.icon">
+          <img class="navigation-item-active-icon" [src]="navigationItem.activeIcon">
+          <div class="navigation-item-text">{{ navigationItem.name }}</div>
+        </div>
+      </div>
+    </div>
+    <div class="right-section">
+      <div class="contacts">
+        <div class="address">
+          <img class="address-icon" src="/assets/images/navigation/location.png">
+          <div class="address-text">ул. Ратомская, Минск</div>  
+        </div>
+        <div class="call-center">
+          <img class="call-center-icon" src="/assets/images/navigation/phone.png">
+          <div class="call-center-text">+375 (33) 634-15-89</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<router-outlet (activate)="onRouteActivated()"></router-outlet>

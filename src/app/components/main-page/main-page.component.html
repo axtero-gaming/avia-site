@@ -1,0 +1,32 @@
+<div class="factory-selector">
+  <div
+    *ngFor="let factoryItem of factories"
+    class="factory-item"
+    [class.active]="activeFactory === factoryItem.factory"
+    (click)="setActiveFactory(factoryItem.factory)"
+  >
+    <img
+      class="factory-icon"
+      *ngIf="factoryItem.icon"
+      [src]="factoryItem.icon"
+    >
+    <div class="factory-name">{{ factoryItem.name }}</div>
+  </div>
+</div>
+
+<div class="gallery">
+  <div
+    *ngFor="let galleryItem of filteredGalleryItems"
+    class="gallery-item"
+    [routerLink]="['/model', galleryItem.slug]"
+  >
+    <img
+      class="model-preview"
+      [src]="galleryItem.previewURL"
+    >
+    <div class="model-descriptor">
+      <div class="model-name">{{ galleryItem.name }}</div>
+      <div class="model-articul">Артикул: {{ getArticul(galleryItem) }}</div>
+    </div>
+  </div>
+</div>

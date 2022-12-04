@@ -1,0 +1,25 @@
+
+:root {
+  --bg-color: #f5f7fb;
+  --bg-dark-color: #e5e7eb;
+  --link-color: #e41c0d;
+  --text-color: #252944;
+  --main-color: #ffc73b;
+  --main-dark-color: #f9c035;
+  --main-hover-color: #f9c035;
+  --error-color: red;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  color: #252944;
+  font-family: 'Roboto';
+  line-height: 1;
+}
+
+html {
+  overflow-y: scroll;
+}
