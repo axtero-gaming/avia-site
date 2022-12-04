@@ -18,7 +18,7 @@ interface NavigationItem {
 export class AppComponent extends BaseComponent implements OnInit {
   public navigationItems: NavigationItem[] = [
     {
-      route: '',
+      route: '/models',
       name: 'Модели',
       icon: '/assets/images/navigation/plane-lines.png',
       activeIcon: '/assets/images/navigation/plane.png',

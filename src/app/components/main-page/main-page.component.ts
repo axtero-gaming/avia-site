@@ -3,6 +3,7 @@ import { ChangeDetectorRef, Component, OnInit, ChangeDetectionStrategy } from '@
 import { BaseComponent } from '../../shared';
 
 enum ModelFactory {
+  DIY = 'DIY',
   Zvezda = 'Zvezda',
   ARKModels = 'ARKModels',
   ICM = 'ICM',
@@ -38,6 +39,10 @@ export class MainPageComponent extends BaseComponent implements OnInit {
     {
       factory: null,
       name: `All`,
+    },
+    {
+      factory: ModelFactory.DIY,
+      name: `DIY`,
     },
     {
       factory: ModelFactory.Zvezda,
@@ -88,7 +93,7 @@ export class MainPageComponent extends BaseComponent implements OnInit {
       slug: 'AirbusA320_Neo',
       previewURL: '/assets/images/gallery/AirbusA320_Neo.png',
       name: 'Airbus A320Neo',
-      articul: '612753',
+      articul: '7037',
       factory: ModelFactory.Zvezda,
     },
     {
@@ -165,6 +170,8 @@ export class MainPageComponent extends BaseComponent implements OnInit {
       slug: 'GroundOperations',
       previewURL: '/assets/images/gallery/GroundOperations.png',
       name: 'Ground Operations',
+      articul: `XXXX`,
+      factory: ModelFactory.DIY,
     },
     {
       slug: 'Il_62M',
@@ -212,6 +219,8 @@ export class MainPageComponent extends BaseComponent implements OnInit {
       slug: 'SukhoiSuperjet100',
       previewURL: '/assets/images/gallery/SukhoiSuperjet100.png',
       name: 'Sukhoi Superjet 100',
+      articul: '7009',
+      factory: ModelFactory.Zvezda,
     },
     {
       slug: 'Tu154M',

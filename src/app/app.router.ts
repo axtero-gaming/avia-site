@@ -4,7 +4,7 @@ import { MainPageComponent } from './components/main-page';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'models',
     component: MainPageComponent,
   },
   {

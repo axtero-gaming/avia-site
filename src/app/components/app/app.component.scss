@@ -19,11 +19,10 @@
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 100;
 
   background-color: white;
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
-
-  margin-bottom: 35px;
 }
 
 .main-menu-container {
@@ -31,6 +30,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  height: 40px;
 }
 
 .navigation-items {

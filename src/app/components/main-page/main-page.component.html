@@ -1,32 +1,47 @@
-<div class="factory-selector">
-  <div
-    *ngFor="let factoryItem of factories"
-    class="factory-item"
-    [class.active]="activeFactory === factoryItem.factory"
-    (click)="setActiveFactory(factoryItem.factory)"
-  >
-    <img
-      class="factory-icon"
-      *ngIf="factoryItem.icon"
-      [src]="factoryItem.icon"
-    >
-    <div class="factory-name">{{ factoryItem.name }}</div>
+<img class="banner" src="/assets/images/banner.png">
+
+<div class="banner-section">
+  <div class="banner-text">
+    <h1>Авиамодели</h1>
+    <p>Первое, что может полететь</p>
   </div>
 </div>
 
-<div class="gallery">
-  <div
-    *ngFor="let galleryItem of filteredGalleryItems"
-    class="gallery-item"
-    [routerLink]="['/model', galleryItem.slug]"
-  >
-    <img
-      class="model-preview"
-      [src]="galleryItem.previewURL"
+<div class="content">
+  <div class="content-header">
+    Модели
+  </div>
+
+  <div class="factory-selector">
+    <div
+      *ngFor="let factoryItem of factories"
+      class="factory-item"
+      [class.active]="activeFactory === factoryItem.factory"
+      (click)="setActiveFactory(factoryItem.factory)"
     >
-    <div class="model-descriptor">
-      <div class="model-name">{{ galleryItem.name }}</div>
-      <div class="model-articul">Артикул: {{ getArticul(galleryItem) }}</div>
+      <img
+        class="factory-icon"
+        *ngIf="factoryItem.icon"
+        [src]="factoryItem.icon"
+      >
+      <div class="factory-name">{{ factoryItem.name }}</div>
+    </div>
+  </div>
+  
+  <div class="gallery">
+    <div
+      *ngFor="let galleryItem of filteredGalleryItems"
+      class="gallery-item"
+      [routerLink]="['/models', galleryItem.slug]"
+    >
+      <img
+        class="model-preview"
+        [src]="galleryItem.previewURL"
+      >
+      <div class="model-descriptor">
+        <div class="model-name">{{ galleryItem.name }}</div>
+        <div class="model-articul">Артикул: {{ getArticul(galleryItem) }}</div>
+      </div>
     </div>
   </div>
 </div>
