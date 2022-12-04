@@ -1,0 +1,39 @@
+
+
+:host {
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.banner-section {
+  height: 350px;
+  width: 1120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+
+  margin: 0 auto;
+}
+
+.banner-text {
+  margin-left: 65px;
+
+  h1 {
+    margin-bottom: 3px;
+
+    font-size: 80px;
+  }
+  p {
+    width: 75%;
+
+    font-size: 18px;
+    line-height: 1.15;
+  }
+}

@@ -13,6 +13,7 @@ import { AppComponent } from './components/app';
 // Services
 import { DOMHelper } from '@core/dom.helper';
 import { MainPageComponent } from './components/main-page';
+import { BannerComponent } from './components/banner';
 
 @NgModule({
   imports: [
@@ -27,6 +28,7 @@ import { MainPageComponent } from './components/main-page';
     // Components
     AppComponent,
     MainPageComponent,
+    BannerComponent,
   ],
   providers: [
     DOMHelper,
