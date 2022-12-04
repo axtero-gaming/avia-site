@@ -1,3 +1,4 @@
+import * as Enums from './enums';
 
 export interface ClickDelegateEvent {
   /**
@@ -26,4 +27,12 @@ export interface SelectOption {
   id: string;
   value: string;
   hint: string;
+}
+
+export interface Model {
+  slug: string;
+  previewURL: string;
+  name: string;
+  articul?: string;
+  factory?: Enums.ModelFactory;
 }
