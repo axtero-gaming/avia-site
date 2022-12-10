@@ -58,14 +58,18 @@ export const Models: Interfaces.Model[] = [
     slug: 'A90_Orlyonok',
     previewURL: '/assets/images/gallery/A90.png',
     name: 'A90 Орлёнок',
-    shortDescription: 'Советский транспортно-десантный экраноплан (экранолёт)',
     articul: '7016',
     factory: Enums.ModelFactory.Zvezda,
+    // Model Page
+    shortDescription: 'Советский транспортно-десантный экраноплан (экранолёт)',
   },
   {
     slug: 'Airbus_A320Neo',
     previewURL: '/assets/images/gallery/AirbusA320_Neo.png',
     name: 'Airbus A320Neo',
+    articul: '7037',
+    factory: Enums.ModelFactory.Zvezda,
+    // Model Page
     realPreviewURL: `/assets/images/model/Airbus_A320Neo/preview.jpg`,
     shortDescription: 'Узкофюзеляжный пассажирский реактивный самолёт семейства Airbus A320',
     description: `
@@ -152,8 +156,6 @@ export const Models: Interfaces.Model[] = [
         ],
       },
     ],
-    articul: '7037',
-    factory: Enums.ModelFactory.Zvezda,
   },
   {
     slug: 'Airbus_A321',
