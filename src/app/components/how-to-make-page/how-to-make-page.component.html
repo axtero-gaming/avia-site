@@ -1,0 +1,15 @@
+<!-- <app-banner
+  [title]="'Как сделать?'"
+  [subtitle]="''"
+  img="/assets/images/banner.png"
+></app-banner> -->
+
+<div class="content">
+  <div class="step" *ngFor="let step of steps">
+    <img class="step-img" [src]="step.imgURL">
+    <div class="step-header">
+      {{ step.header }}
+    </div>
+    <div class="step-description" [innerHTML]="step.description"></div>
+  </div>
+</div>

@@ -57,3 +57,9 @@ export interface Model {
   galleryItems?: GalleryItem[];
   specificationGroups?: SpecificationGroup[];
 }
+
+export interface HowToMakeStep {
+  imgURL: string;
+  header: string;
+  description: string;
+}

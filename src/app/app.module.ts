@@ -15,6 +15,7 @@ import { DOMHelper } from '@core/dom.helper';
 import { MainPageComponent } from './components/main-page';
 import { ModelPageComponent } from './components/model-page/model-page.component';
 import { BannerComponent } from './components/banner';
+import { HowToMakePageComponent } from './components/how-to-make-page';
 
 @NgModule({
   imports: [
@@ -31,6 +32,7 @@ import { BannerComponent } from './components/banner';
     MainPageComponent,
     ModelPageComponent,
     BannerComponent,
+    HowToMakePageComponent,
   ],
   providers: [
     DOMHelper,

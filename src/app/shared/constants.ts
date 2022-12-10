@@ -2,6 +2,57 @@
 import * as Interfaces from './interfaces';
 import * as Enums from './enums';
 
+export const HowToMakeSteps: Interfaces.HowToMakeStep[] = [
+  {
+    imgURL: '/assets/images/model/Airbus_A320Neo/img1.jpg',
+    header: 'Doggo ipsum long bois lotsa pats blep',
+    description: `
+      <p>
+        Doggo ipsum long bois lotsa pats blep. What a nice floof ruff super chub very good spot, the neighborhood pupper lotsa pats. Borkdrive shibe shoober what a nice floof, borking doggo.
+      </p>
+      <p>
+        Doggo ipsum long bois lotsa pats blep. What a nice floof ruff super chub very good spot, the neighborhood pupper lotsa pats. Borkdrive shibe shoober what a nice floof, borking doggo.
+      </p>
+    `,
+  },
+  {
+    imgURL: '/assets/images/model/Airbus_A320Neo/img2.jpg',
+    header: 'Doggo ipsum long bois lotsa pats blep',
+    description: `
+      <p>
+        Doggo ipsum long bois lotsa pats blep. What a nice floof ruff super chub very good spot, the neighborhood pupper lotsa pats. Borkdrive shibe shoober what a nice floof, borking doggo.
+      </p>
+      <p>
+        Doggo ipsum long bois lotsa pats blep. What a nice floof ruff super chub very good spot, the neighborhood pupper lotsa pats. Borkdrive shibe shoober what a nice floof, borking doggo.
+      </p>
+    `,
+  },
+  {
+    imgURL: '/assets/images/model/Airbus_A320Neo/img3.jpg',
+    header: 'Doggo ipsum long bois lotsa pats blep',
+    description: `
+      <p>
+        Doggo ipsum long bois lotsa pats blep. What a nice floof ruff super chub very good spot, the neighborhood pupper lotsa pats. Borkdrive shibe shoober what a nice floof, borking doggo.
+      </p>
+      <p>
+        Doggo ipsum long bois lotsa pats blep. What a nice floof ruff super chub very good spot, the neighborhood pupper lotsa pats. Borkdrive shibe shoober what a nice floof, borking doggo.
+      </p>
+    `,
+  },
+  {
+    imgURL: '/assets/images/model/Airbus_A320Neo/img1.jpg',
+    header: 'Doggo ipsum long bois lotsa pats blep',
+    description: `
+      <p>
+        Doggo ipsum long bois lotsa pats blep. What a nice floof ruff super chub very good spot, the neighborhood pupper lotsa pats. Borkdrive shibe shoober what a nice floof, borking doggo.
+      </p>
+      <p>
+        Doggo ipsum long bois lotsa pats blep. What a nice floof ruff super chub very good spot, the neighborhood pupper lotsa pats. Borkdrive shibe shoober what a nice floof, borking doggo.
+      </p>
+    `,
+  },
+];
+
 export const Models: Interfaces.Model[] = [
   {
     slug: 'A90_Orlyonok',

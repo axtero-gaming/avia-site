@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HowToMakePageComponent } from './components/how-to-make-page';
 import { MainPageComponent } from './components/main-page';
 import { ModelPageComponent } from './components/model-page/model-page.component';
 
@@ -14,7 +15,7 @@ const routes: Routes = [
   },
   {
     path: 'how-to-make',
-    component: MainPageComponent,
+    component: HowToMakePageComponent,
   },
   {
     path: 'achivements',
