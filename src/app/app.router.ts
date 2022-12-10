@@ -20,6 +20,11 @@ const routes: Routes = [
     path: 'achivements',
     component: MainPageComponent,
   },
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: 'models',
+  },
 ];
 
 @NgModule({
