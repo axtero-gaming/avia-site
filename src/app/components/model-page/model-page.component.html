@@ -1,0 +1,58 @@
+<app-banner
+  [title]="model.name"
+  [subtitle]="model.shortDescription"
+  img="/assets/images/banner.png"
+></app-banner>
+
+<div class="content">
+  <div class="left-section">
+    <div class="base-section info-section" *ngIf="model.description">
+      <div class="base-header info-header">
+        <img class="specifications-icon" src="/assets/images/model/information.png">
+        Описание
+      </div>
+      <div class="info-body" [innerHTML]="model.description"></div>
+    </div>
+
+    <div class="base-section gallery-section" *ngIf="model.galleryItems?.length">
+      <div class="base-header gallery-header">
+        <img class="specifications-icon" src="/assets/images/model/image-gallery.png">
+        Галлерея
+      </div>
+      <div class="gallery-body">
+        <img
+          *ngFor="let galleryItem of model.galleryItems"
+          class="gallery-item"
+          [src]="galleryItem.url"
+        >
+      </div>
+    </div>
+  </div>
+
+  <div class="right-section">
+    <div class="base-section preview-section" *ngIf="model.realPreviewURL">
+      <img class="preview-img" [src]="model.realPreviewURL">
+    </div>
+
+    <div class="base-section specifications" *ngIf="model.specificationGroups?.length">
+      <div class="specifications-header">
+        <img class="specifications-icon" src="/assets/images/model/specification.png">
+        Характеристики
+      </div>
+      <div class="specifications-body">
+        <ng-template ngFor let-specificationGroup [ngForOf]="model.specificationGroups" let-i="index">
+          <div class="subspecifications-header">
+            {{ specificationGroup.name }}
+          </div>
+          <div class="subspecifications-body">
+            <div class="specification" *ngFor="let specificationItem of specificationGroup.items">
+              <div class="specification-name">{{ specificationItem.name }}</div>
+              <div class="specification-value">{{ specificationItem.value }}</div>
+            </div>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -13,6 +13,7 @@ import { AppComponent } from './components/app';
 // Services
 import { DOMHelper } from '@core/dom.helper';
 import { MainPageComponent } from './components/main-page';
+import { ModelPageComponent } from './components/model-page/model-page.component';
 import { BannerComponent } from './components/banner';
 
 @NgModule({
@@ -28,6 +29,7 @@ import { BannerComponent } from './components/banner';
     // Components
     AppComponent,
     MainPageComponent,
+    ModelPageComponent,
     BannerComponent,
   ],
   providers: [

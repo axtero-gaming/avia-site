@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MainPageComponent } from './components/main-page';
+import { ModelPageComponent } from './components/model-page/model-page.component';
 
 const routes: Routes = [
   {
@@ -8,8 +9,8 @@ const routes: Routes = [
     component: MainPageComponent,
   },
   {
-    path: 'model/:slug',
-    component: MainPageComponent,
+    path: 'models/:slug',
+    component: ModelPageComponent,
   },
   {
     path: 'how-to-make',

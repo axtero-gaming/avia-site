@@ -6,35 +6,6 @@
   padding-bottom: 25px;
 }
 
-.banner {
-  width: 100%;
-  position: absolute;
-  z-index: 1;
-}
-
-.banner-section {
-  height: 400px;
-  width: 1120px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  z-index: 10;
-
-  margin: 0 auto;
-}
-
-.banner-text {
-  margin-left: 65px;
-
-  h1 {
-    font-size: 80px;
-  }
-  p {
-    font-size: 18px;
-  }
-}
-
 .content {
   width: 1120px;
   position: relative;

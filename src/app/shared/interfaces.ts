@@ -29,10 +29,31 @@ export interface SelectOption {
   hint: string;
 }
 
+export interface GalleryItem {
+  url: string;
+  description?: string;
+}
+
+export interface SpecificationGroup {
+  name: string;
+  items: SpecificationItem[]
+}
+
+export interface SpecificationItem {
+  name: string;
+  value?: string|number;
+}
+
 export interface Model {
   slug: string;
   previewURL: string;
   name: string;
   articul?: string;
   factory?: Enums.ModelFactory;
+  // Model
+  shortDescription?: string;
+  realPreviewURL?: string;
+  description?: string;
+  galleryItems?: GalleryItem[];
+  specificationGroups?: SpecificationGroup[];
 }

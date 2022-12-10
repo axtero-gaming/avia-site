@@ -1,0 +1,159 @@
+
+
+:host {
+  width: 100%;
+
+  padding-bottom: 25px;
+}
+
+.content {
+  width: 1120px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  z-index: 10;
+
+  margin: 0 auto;
+}
+
+.left-section {
+  width: 100%;
+}
+
+.base-section {
+  width: 100%;
+
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.05);
+}
+
+.base-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 18px 35px;
+  padding-top: 21px;
+  border-bottom: 2px solid var(--bg-color);
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+// ***** INFO
+
+.info-body {
+  padding: 18px 35px;
+
+  ::ng-deep p {
+    margin-bottom: 15px;
+
+    line-height: 1.35;
+  }
+
+  ::ng-deep a {
+    color: var(--link-color);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.info-section {
+  margin-bottom: 25px;
+}
+
+// ***** GALLERY
+
+.gallery-body {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery-item {
+  max-width: 100%;
+  display: block;
+}
+
+.right-section {
+  width: 40%;
+  flex-shrink: 0;
+
+  margin-left: 25px;
+}
+
+.preview-section {
+  display: flex;
+  overflow: hidden;
+
+  margin-bottom: 25px;
+}
+
+// ***** PREVIEW
+
+.preview-img {
+  width: 100%;
+}
+
+// ***** SPECIFICATION
+
+.specifications-icon {
+  margin-right: 10px;
+}
+
+.specifications-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 18px 45px;
+  padding-top: 21px;
+  border-bottom: 2px solid var(--bg-color);
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.specifications-body {
+  padding: 25px 45px;
+  padding-bottom: 30px;
+}
+
+.subspecifications-header {
+  margin-bottom: 20px;
+
+  font-weight: 500;
+}
+
+.subspecifications-body {
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.specification {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 15px;
+
+  font-size: 14px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.specification-name {
+  color: var(--light-text-color);
+  font-weight: 500;
+}
+
+.specification-value {
+  font-weight: 500;
+}
