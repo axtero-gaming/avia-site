@@ -16,6 +16,7 @@ import { MainPageComponent } from './components/main-page';
 import { ModelPageComponent } from './components/model-page/model-page.component';
 import { BannerComponent } from './components/banner';
 import { HowToMakePageComponent } from './components/how-to-make-page';
+import { NotFoundPageComponent } from './components/not-found-page';
 
 @NgModule({
   imports: [
@@ -33,6 +34,7 @@ import { HowToMakePageComponent } from './components/how-to-make-page';
     ModelPageComponent,
     BannerComponent,
     HowToMakePageComponent,
+    NotFoundPageComponent,
   ],
   providers: [
     DOMHelper,

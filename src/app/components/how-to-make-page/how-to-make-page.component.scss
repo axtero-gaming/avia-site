@@ -15,7 +15,7 @@
   margin: 0 auto;
 }
 
-$line-color: #c16262;
+$line-color: var(--ligth-link-color);
 .step {
   counter-increment: section;
   position: relative;
