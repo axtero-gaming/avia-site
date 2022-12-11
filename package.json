@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "dev:start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href=/avia-site/ --deploy-url=/avia-site/ ",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
