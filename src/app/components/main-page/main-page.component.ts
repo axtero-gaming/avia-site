@@ -31,37 +31,37 @@ export class MainPageComponent extends BaseComponent implements OnInit {
     {
       factory: ModelFactory.Zvezda,
       name: `Zvezda`,
-      icon: '/assets/images/factories/zvezda.svg',
+      icon: 'assets/images/factories/zvezda.svg',
     },
     {
       factory: ModelFactory.Revell,
       name: `Revell`,
-      icon: '/assets/images/factories/revel.webp',
+      icon: 'assets/images/factories/revel.webp',
     },
     {
       factory: ModelFactory.ICM,
       name: `ICM`,
-      icon: '/assets/images/factories/icm.png',
+      icon: 'assets/images/factories/icm.png',
     },
     {
       factory: ModelFactory.Academy,
       name: `Academy`,
-      icon: '/assets/images/factories/Academy.jpg',
+      icon: 'assets/images/factories/Academy.jpg',
     },
     {
       factory: ModelFactory.Modelist,
       name: `Modelist`,
-      icon: '/assets/images/factories/modelist.png',
+      icon: 'assets/images/factories/modelist.png',
     },
     {
       factory: ModelFactory.EasternExpress,
       name: `Eastern Express`,
-      icon: '/assets/images/factories/estern-express.png',
+      icon: 'assets/images/factories/estern-express.png',
     },
     {
       factory: ModelFactory.ARKModels,
       name: `ARK models`,
-      icon: '/assets/images/factories/arc-model.jpg',
+      icon: 'assets/images/factories/arc-model.jpg',
     },
   ];
 

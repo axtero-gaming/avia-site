@@ -20,20 +20,20 @@ export class AppComponent extends BaseComponent implements OnInit {
     {
       route: '/models',
       name: 'Модели',
-      icon: '/assets/images/navigation/plane-lines.png',
-      activeIcon: '/assets/images/navigation/plane.png',
+      icon: 'assets/images/navigation/plane-lines.png',
+      activeIcon: 'assets/images/navigation/plane.png',
     },
     {
       route: '/how-to-make',
       name: 'Как сделать?',
-      icon: '/assets/images/navigation/how-to-make-lines.png',
-      activeIcon: '/assets/images/navigation/how-to-make.png',
+      icon: 'assets/images/navigation/how-to-make-lines.png',
+      activeIcon: 'assets/images/navigation/how-to-make.png',
     },
     {
       route: '/achievements',
       name: 'Награды',
-      icon: '/assets/images/navigation/achivements-lines.png',
-      activeIcon: '/assets/images/navigation/achivements.png',
+      icon: 'assets/images/navigation/achivements-lines.png',
+      activeIcon: 'assets/images/navigation/achivements.png',
     },
   ];
 

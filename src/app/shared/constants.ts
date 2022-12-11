@@ -4,7 +4,7 @@ import * as Enums from './enums';
 
 export const HowToMakeSteps: Interfaces.HowToMakeStep[] = [
   {
-    imgURL: '/assets/images/HowMade/img1.jpg',
+    imgURL: 'assets/images/HowMade/img1.jpg',
     header: 'Склеить модель',
     description: `
       <p>
@@ -16,7 +16,7 @@ export const HowToMakeSteps: Interfaces.HowToMakeStep[] = [
     `,
   },
   {
-    imgURL: '/assets/images/HowMade/img2.jpg',
+    imgURL: 'assets/images/HowMade/img2.jpg',
     header: 'Зашпаклевать модель и покрыть грунтовкой',
     description: `
       <p>
@@ -28,7 +28,7 @@ export const HowToMakeSteps: Interfaces.HowToMakeStep[] = [
     `,
   },
   {
-    imgURL: '/assets/images/HowMade/img3.jpg',
+    imgURL: 'assets/images/HowMade/img3.jpg',
     header: 'Покраска модели',
     description: `
       <p>
@@ -40,7 +40,7 @@ export const HowToMakeSteps: Interfaces.HowToMakeStep[] = [
     `,
   },
   {
-    imgURL: '/assets/images/HowMade/img4.jpg',
+    imgURL: 'assets/images/HowMade/img4.jpg',
     header: 'Нанесение декалей и покрытие лаком',
     description: `
       <p>
@@ -59,12 +59,12 @@ export const HowToMakeSteps: Interfaces.HowToMakeStep[] = [
 export const Models: Interfaces.Model[] = [
   {
     slug: 'A90_Orlyonok',
-    previewURL: '/assets/images/gallery/A90.png',
+    previewURL: 'assets/images/gallery/A90.png',
     name: 'A-90 "Орлёнок"',
     articul: '7016',
     factory: Enums.ModelFactory.Zvezda,
     // Model Page
-    realPreviewURL: `/assets/images/model/A90/A-90_Orlyonok_4.jfif`,
+    realPreviewURL: `assets/images/model/A90/A-90_Orlyonok_4.jfif`,
     shortDescription: 'Советский транспортно-десантный экраноплан (экранолёт)',
     description: `
       <p>А-90 «Орлёнок» — советский транспортно-десантный экраноплан (экранолёт), разработанный в конструкторском бюро Р. Е. Алексеева. В ВМФ СССР — Малый Десантный корабль-Экраноплан (МДЭ) проекта 904, шифр «Орлёнок». Принят на вооружение ВМФ СССР в ноябре 1979 года. Мог отрываться от поверхности экрана и переходить в самолётный режим полёта, поднимаясь на высоту до 3000 метров.</p>
@@ -74,13 +74,13 @@ export const Models: Interfaces.Model[] = [
       `,
       galleryItems: [
         {
-          url: `/assets/images/model/A90/1.jpg`,
+          url: `assets/images/model/A90/1.jpg`,
         },
         {
-          url: `/assets/images/model/A90/2.jpg`,
+          url: `assets/images/model/A90/2.jpg`,
         },
         {
-          url: `/assets/images/model/A90/3.jpg`,
+          url: `assets/images/model/A90/3.jpg`,
         },
       ],
       specificationGroups: [
@@ -143,12 +143,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Airbus_A320Neo',
-    previewURL: '/assets/images/gallery/AirbusA320_Neo.png',
+    previewURL: 'assets/images/gallery/AirbusA320_Neo.png',
     name: 'Airbus A320Neo',
     articul: '7037',
     factory: Enums.ModelFactory.Zvezda,
     // Model Page
-    realPreviewURL: `/assets/images/model/Airbus_A320Neo/preview.jpg`,
+    realPreviewURL: `assets/images/model/Airbus_A320Neo/preview.jpg`,
     shortDescription: 'Узкофюзеляжный пассажирский реактивный самолёт семейства Airbus A320',
     description: `
       <p>Airbus A320neo (Аэробус А320нео) - базовая модель нового семейства среднемагистральных пассажирских самолетов разработки европейского концерна Airbus. A320neo представляет из себя глубокую модернизацию популярного авиалайнера Airbus A320 с двигателями нового поколения, улучшенными бортовыми системами и более крупными законцовками крыла (шарклетами).</p>
@@ -158,13 +158,13 @@ export const Models: Interfaces.Model[] = [
       `,
     galleryItems: [
       {
-        url: `/assets/images/model/Airbus_A320Neo/img1.jpg`,
+        url: `assets/images/model/Airbus_A320Neo/img1.jpg`,
       },
       {
-        url: `/assets/images/model/Airbus_A320Neo/img2.jpg`,
+        url: `assets/images/model/Airbus_A320Neo/img2.jpg`,
       },
       {
-        url: `/assets/images/model/Airbus_A320Neo/img3.jpg`,
+        url: `assets/images/model/Airbus_A320Neo/img3.jpg`,
       },
     ],
     specificationGroups: [
@@ -239,12 +239,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Airbus_A321',
-    previewURL: '/assets/images/gallery/AirbusA321.png',
+    previewURL: 'assets/images/gallery/AirbusA321.png',
     name: 'Airbus A321',
     articul: '7017',
     factory: Enums.ModelFactory.Zvezda,
     // Model Page
-    realPreviewURL: `/assets/images/model/A321/Airbus-A321-large_tcm114-3646_large.jpg`,
+    realPreviewURL: `assets/images/model/A321/Airbus-A321-large_tcm114-3646_large.jpg`,
     shortDescription: 'Узкофюзеляжный пассажирский реактивный самолёт семейства Airbus A320',
     description: `
       <p>Airbus A321 (Аэробус А321) является самым крупным представителем семейства самолетов Airbus A320. А321 имеет удлиненный в сравнении с другими моделями фюзеляж и, соответственно, повышенную пассажировместимость.</p>
@@ -254,13 +254,13 @@ export const Models: Interfaces.Model[] = [
       `,
     galleryItems: [
       {
-        url: `/assets/images/model/A321/1.jpg`,
+        url: `assets/images/model/A321/1.jpg`,
       },
       {
-        url: `/assets/images/model/A321/2.jpg`,
+        url: `assets/images/model/A321/2.jpg`,
       },
       {
-        url: `/assets/images/model/A321/3.jpg`,
+        url: `assets/images/model/A321/3.jpg`,
       },
     ],
     specificationGroups: [
@@ -335,12 +335,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Airbus_A350-1000',
-    previewURL: '/assets/images/gallery/AirbusA350_1000.png',
+    previewURL: 'assets/images/gallery/AirbusA350_1000.png',
     name: 'Airbus A350-1000',
     articul: '7020',
     factory: Enums.ModelFactory.Zvezda,
     // Model Page
-    realPreviewURL: `/assets/images/model/A351/A350-1000.jpg`,
+    realPreviewURL: `assets/images/model/A351/A350-1000.jpg`,
     shortDescription: 'Airbus A350 XWB — семейство дальнемагистральных широкофюзеляжных двухдвигательных пассажирских самолётов',
     description: `
       <p>Пассажирский авиалайнер Airbus A350-1000 (Аэробус 350-1000) - это новейшая разработка европейского авиастроительной концерна Airbus. A350-1000 является самым крупным представителем нового семейства дальнемагистральных воздушных лайнеров Airbus А350.</p>
@@ -350,13 +350,13 @@ export const Models: Interfaces.Model[] = [
       `,
     galleryItems: [
       {
-        url: `/assets/images/model/A351/1.jpg`,
+        url: `assets/images/model/A351/1.jpg`,
       },
       {
-        url: `/assets/images/model/A351/2.jpg`,
+        url: `assets/images/model/A351/2.jpg`,
       },
       {
-        url: `/assets/images/model/A351/3.jpg`,
+        url: `assets/images/model/A351/3.jpg`,
       },
     ],
     specificationGroups: [
@@ -423,12 +423,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Airbus_A380-800',
-    previewURL: '/assets/images/gallery/AirbusA380_800.png',
+    previewURL: 'assets/images/gallery/AirbusA380_800.png',
     name: 'Airbus A380-800',
     articul: '03922',
     factory: Enums.ModelFactory.Revell,
      // Model Page
-    realPreviewURL: `/assets/images/model/A388/1-131.jpg`,
+    realPreviewURL: `assets/images/model/A388/1-131.jpg`,
     shortDescription: 'Широкофюзеляжный пассажирский самолёт',
     description: `
       <p>Airbus А380 — широкофюзеляжный двухпалубный четырёхдвигательный турбореактивный пассажирский самолёт, созданный концерном Airbus S.A.S. (ранее Airbus Industrie) — крупнейший серийный авиалайнер в мире (высота 24 метра, длина 73 метра, размах крыла 79 метров). Вместимость — 525 пассажиров в салоне трёх классов, 853 пассажира в одноклассной конфигурации.</p>
@@ -438,13 +438,13 @@ export const Models: Interfaces.Model[] = [
       `,
     galleryItems: [
       {
-        url: `/assets/images/model/A388/1.jpg`,
+        url: `assets/images/model/A388/1.jpg`,
       },
       {
-        url: `/assets/images/model/A388/2.jpg`,
+        url: `assets/images/model/A388/2.jpg`,
       },
       {
-        url: `/assets/images/model/A388/3.png`,
+        url: `assets/images/model/A388/3.png`,
       },
     ],
     specificationGroups: [
@@ -503,12 +503,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'An225',
-    previewURL: '/assets/images/gallery/An225.png',
+    previewURL: 'assets/images/gallery/An225.png',
     name: 'Antonov An-225',
     articul: '7035',
     factory: Enums.ModelFactory.Zvezda,
     // Model Page
-    realPreviewURL: `/assets/images/model/A225/800px-Antonov_An-225_Beltyukov-1.jpg`,
+    realPreviewURL: `assets/images/model/A225/800px-Antonov_An-225_Beltyukov-1.jpg`,
     shortDescription: 'Крупнейший в мире транспортный самолёт',
     description: `
       <p>Ан-225 «Мрия» (укр. Мрія: «Мечта», по кодификации НАТО: англ. Cossack «Казак») — транспортный реактивный самолёт сверхбольшой грузоподъёмности разработки ОКБ имени О. К. Антонова. Был самым большим и грузоподъёмным самолётом за всю историю мировой авиации.</p>
@@ -519,13 +519,13 @@ export const Models: Interfaces.Model[] = [
       `,
     galleryItems: [
       {
-        url: `/assets/images/model/A225/1.jpg`,
+        url: `assets/images/model/A225/1.jpg`,
       },
       {
-        url: `/assets/images/model/A225/2.jpg`,
+        url: `assets/images/model/A225/2.jpg`,
       },
       {
-        url: `/assets/images/model/A225/3.jpg`,
+        url: `assets/images/model/A225/3.jpg`,
       },
     ],
     specificationGroups: [
@@ -588,12 +588,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Boeing_737-800',
-    previewURL: '/assets/images/gallery/Boeing737_800.png',
+    previewURL: 'assets/images/gallery/Boeing737_800.png',
     name: 'Boeing 737-800',
     articul: '7019',
     factory: Enums.ModelFactory.Zvezda,
     // Model Page
-    realPreviewURL: `/assets/images/model/B738/840px-Ris.1-boing-737-800.jpg`,
+    realPreviewURL: `assets/images/model/B738/840px-Ris.1-boing-737-800.jpg`,
     shortDescription: 'Среднемагистральный пассажирский самолёт',
     description: `
       <p>Boeing 737 Next Generation (обычно сокращаемое до Boeing 737NG) — обозначение моделей −600/-700/-800/-900 самолёта Boeing 737. Серия стала третьим поколением модели 737 и сменила в производстве модель 737 Classic (−300/-400/-500), производство которой началось в середине 1980-х годов. Модель является ближне- и среднемагистральным узкофюзеляжным реактивным самолётом. Производимый с 1996 года компанией Boeing, 737NG продаётся в четырёх вариантах пассажировместимости (обычно от 110 до 210 пассажиров).</p>
@@ -603,13 +603,13 @@ export const Models: Interfaces.Model[] = [
       `,
     galleryItems: [
       {
-        url: `/assets/images/model/B738/1.jpg`,
+        url: `assets/images/model/B738/1.jpg`,
       },
       {
-        url: `/assets/images/model/B738/2.jpg`,
+        url: `assets/images/model/B738/2.jpg`,
       },
       {
-        url: `/assets/images/model/B738/3.jpg`,
+        url: `assets/images/model/B738/3.jpg`,
       },
     ],
     specificationGroups: [
@@ -672,12 +672,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Boeing_747-8F',
-    previewURL: '/assets/images/gallery/Boeing747_8F.png',
+    previewURL: 'assets/images/gallery/Boeing747_8F.png',
     name: 'Boeing 747-8F',
     articul: '7010',
     factory: Enums.ModelFactory.Zvezda,
      // Model Page
-     realPreviewURL: `/assets/images/model/B748/1200px-JA13KZ_B747-8F_Nippon_Cargo_31_jan_2013_jfk_(8441063755).jpg`,
+     realPreviewURL: `assets/images/model/B748/1200px-JA13KZ_B747-8F_Nippon_Cargo_31_jan_2013_jfk_(8441063755).jpg`,
      shortDescription: 'Двухпалубный широкофюзеляжный самолёт',
      description: `
        <p>Boeing 747-8 — двухпалубный широкофюзеляжный пассажирский самолёт, разработанный компанией Boeing. Этот анонсированный в 2005 году авиалайнер является новым поколением знаменитой серии Boeing 747 с удлинённым фюзеляжем, перепроектированным крылом и улучшенной экономической эффективностью. 747-8 является самым большим коммерческим самолётом, построенным в США, а также самым длинным пассажирским самолётом в мире, превысившим длину Airbus A340-600 почти на метр.</p>
@@ -687,13 +687,13 @@ export const Models: Interfaces.Model[] = [
        `,
      galleryItems: [
        {
-         url: `/assets/images/model/B748/1.jpg`,
+         url: `assets/images/model/B748/1.jpg`,
        },
        {
-         url: `/assets/images/model/B748/2.jpg`,
+         url: `assets/images/model/B748/2.jpg`,
        },
        {
-         url: `/assets/images/model/B748/3.jpg`,
+         url: `assets/images/model/B748/3.jpg`,
        },
      ],
      specificationGroups: [
@@ -756,12 +756,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Boeing_767-300',
-    previewURL: '/assets/images/gallery/Boeing767_300.png',
+    previewURL: 'assets/images/gallery/Boeing767_300.png',
     name: 'Boeing 767-300',
     articul: '7005',
     factory: Enums.ModelFactory.Zvezda,
     // Model Page
-    realPreviewURL: `/assets/images/model/B763/Delta_Air_Lines_B767-332_N130DL.jpg`,
+    realPreviewURL: `assets/images/model/B763/Delta_Air_Lines_B767-332_N130DL.jpg`,
     shortDescription: 'Широкофюзеляжный самолёт',
     description: `
       <p>Boeing 767 — семейство двухдвигательных средних и дальнемагистральных широкофюзеляжных авиалайнеров, разработанных американской компанией Boeing. Boeing 767 - первый двухмоторный авиалайнер, получивший право выполнять регулярные пассажирские рейсы через Атлантический океан.</p>
@@ -771,13 +771,13 @@ export const Models: Interfaces.Model[] = [
       `,
     galleryItems: [
       {
-        url: `/assets/images/model/B763/1.jpg`,
+        url: `assets/images/model/B763/1.jpg`,
       },
       {
-        url: `/assets/images/model/B763/2.jpg`,
+        url: `assets/images/model/B763/2.jpg`,
       },
       {
-        url: `/assets/images/model/B763/3.jpg`,
+        url: `assets/images/model/B763/3.jpg`,
       },
     ],
     specificationGroups: [
@@ -824,12 +824,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Boeing_777-300ER',
-    previewURL: '/assets/images/gallery/Boeing777_300ER.png',
+    previewURL: 'assets/images/gallery/Boeing777_300ER.png',
     name: 'Boeing 777-300ER',
     articul: '7012',
     factory: Enums.ModelFactory.Zvezda,
         // Model Page
-        realPreviewURL: `/assets/images/model/B77W/a6-epo-emirates-boeing-777-31her_PlanespottersNet_1239529_81dd35bbd6_o.jpg`,
+        realPreviewURL: `assets/images/model/B77W/a6-epo-emirates-boeing-777-31her_PlanespottersNet_1239529_81dd35bbd6_o.jpg`,
         shortDescription: 'Широкофюзеляжный самолёт',
         description: `
           <p>Boeing 777 (Triple Seven или T7 — «Три семёрки») — семейство двухдвигательных широкофюзеляжных пассажирских самолётов для авиалиний большой протяжённости. Самолёт разработан в начале 1990-х, совершил первый полёт в 1994 году, в эксплуатации с 1995 года.</p>
@@ -841,13 +841,13 @@ export const Models: Interfaces.Model[] = [
           `,
         galleryItems: [
           {
-            url: `/assets/images/model/B77W/1.jpg`,
+            url: `assets/images/model/B77W/1.jpg`,
           },
           {
-            url: `/assets/images/model/B77W/2.jpg`,
+            url: `assets/images/model/B77W/2.jpg`,
           },
           {
-            url: `/assets/images/model/B77W/3.jpg`,
+            url: `assets/images/model/B77W/3.jpg`,
           },
         ],
         specificationGroups: [
@@ -910,12 +910,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Boeing_787-8',
-    previewURL: '/assets/images/gallery/Boeing787_8.png',
+    previewURL: 'assets/images/gallery/Boeing787_8.png',
     name: 'Boeing 787-8',
     articul: '7008',
     factory: Enums.ModelFactory.Zvezda,
             // Model Page
-            realPreviewURL: `/assets/images/model/B788/Boeing_787-800_First_Visit_6980696191_2.jpg`,
+            realPreviewURL: `assets/images/model/B788/Boeing_787-800_First_Visit_6980696191_2.jpg`,
             shortDescription: 'Широкофюзеляжный самолёт',
             description: `
               <p>Boeing 787 Dreamliner — семейство дальнемагистральных широкофюзеляжных двухдвигательных турбореактивных пассажирских самолётов, разработанных американской компанией Boeing, на смену Boeing 767. Boeing 787 стал первым пассажирским самолётом компании, в конструкции которого широко использованы композитные материалы.</p>
@@ -925,13 +925,13 @@ export const Models: Interfaces.Model[] = [
               `,
             galleryItems: [
               {
-                url: `/assets/images/model/B788/1.jpg`,
+                url: `assets/images/model/B788/1.jpg`,
               },
               {
-                url: `/assets/images/model/B788/2.jpg`,
+                url: `assets/images/model/B788/2.jpg`,
               },
               {
-                url: `/assets/images/model/B788/3.jpg`,
+                url: `assets/images/model/B788/3.jpg`,
               },
             ],
             specificationGroups: [
@@ -994,12 +994,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Buran',
-    previewURL: '/assets/images/gallery/Buran.png',
+    previewURL: 'assets/images/gallery/Buran.png',
     name: 'Buran',
     articul: '14402',
     factory: Enums.ModelFactory.ARKModels,
                 // Model Page
-                realPreviewURL: `/assets/images/model/Buran/PP4PWPBl3biS5y0swCarcMrKKrxEoANE1s7t679c.jpg`,
+                realPreviewURL: `assets/images/model/Buran/PP4PWPBl3biS5y0swCarcMrKKrxEoANE1s7t679c.jpg`,
                 shortDescription: 'Многоразовый космический корабль',
                 description: `
                   <p>«Буран» — советский орбитальный корабль-ракетоплан многоразовой транспортной космической системы (МТКС), созданный в рамках программы «Энергия — Буран».</p>
@@ -1009,16 +1009,16 @@ export const Models: Interfaces.Model[] = [
                   `,
                 galleryItems: [
                   {
-                    url: `/assets/images/model/Buran/1.jpg`,
+                    url: `assets/images/model/Buran/1.jpg`,
                   },
                   {
-                    url: `/assets/images/model/Buran/2.jpg`,
+                    url: `assets/images/model/Buran/2.jpg`,
                   },
                   {
-                    url: `/assets/images/model/Buran/3.jpg`,
+                    url: `assets/images/model/Buran/3.jpg`,
                   },
                   {
-                    url: `/assets/images/model/Buran/4.jpg`,
+                    url: `assets/images/model/Buran/4.jpg`,
                   },
                 ],
                 specificationGroups: [
@@ -1052,12 +1052,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Ground_Operations',
-    previewURL: '/assets/images/gallery/GroundOperations.png',
+    previewURL: 'assets/images/gallery/GroundOperations.png',
     name: 'Ground Operations',
     articul: `XXXX`,
     factory: Enums.ModelFactory.DIY,
     // Model Page
-    realPreviewURL: `/assets/images/model/Ground/Havas-GH-1-1-scaled.jpg`,
+    realPreviewURL: `assets/images/model/Ground/Havas-GH-1-1-scaled.jpg`,
     shortDescription: 'Наземное обслуживание воздушного судна',
     description: `
       <p>Наземное обслуживание воздушного судна (ВС) или хэндлинг (англ. handling) — комплекс работ по приёму ВС (обычно самолёта) на стоянке, по подготовке к вылету и выпуску в полёт.</p>
@@ -1067,36 +1067,36 @@ export const Models: Interfaces.Model[] = [
       `,
     galleryItems: [
       {
-        url: `/assets/images/model/Ground/1.jpg`,
+        url: `assets/images/model/Ground/1.jpg`,
       },
       {
-        url: `/assets/images/model/Ground/2.jpg`,
+        url: `assets/images/model/Ground/2.jpg`,
       },
       {
-        url: `/assets/images/model/Ground/3.jpg`,
+        url: `assets/images/model/Ground/3.jpg`,
       },
       {
-        url: `/assets/images/model/Ground/4.jpg`,
+        url: `assets/images/model/Ground/4.jpg`,
       },
       {
-        url: `/assets/images/model/Ground/6.jpg`,
+        url: `assets/images/model/Ground/6.jpg`,
       },
       {
-        url: `/assets/images/model/Ground/7.jpg`,
+        url: `assets/images/model/Ground/7.jpg`,
       },
       {
-        url: `/assets/images/model/Ground/8.jpg`,
+        url: `assets/images/model/Ground/8.jpg`,
       },
     ],
   },
   {
     slug: 'Il-62M',
-    previewURL: '/assets/images/gallery/Il_62M.png',
+    previewURL: 'assets/images/gallery/Il_62M.png',
     name: 'Ilyushin IL-62M',
     articul: '14405',
     factory: Enums.ModelFactory.ICM,
             // Model Page
-            realPreviewURL: `/assets/images/model/I62/Ilyushin_Il-62M,_Aeroflot_AN1061813.jpg`,
+            realPreviewURL: `assets/images/model/I62/Ilyushin_Il-62M,_Aeroflot_AN1061813.jpg`,
             shortDescription: 'Дальнемагистральный пассажирский самолёт',
             description: `
               <p>Ил-62 (по кодификации НАТО: Classic — «классический») — первый советский турбореактивный дальнемагистральный пассажирский самолёт 1-го класса межконтинентальной дальности, разработан в ОКБ имени Ильюшина в 1960 году с учётом мировых требований к воздушным суднам такого класса для замены самолётов Ту-114 и Ил-18. Единственный крупносерийный самолёт в своём классе. По уровню технического совершенства соответствует турбореактивным пассажирским самолётам «второго поколения».</p>
@@ -1107,13 +1107,13 @@ export const Models: Interfaces.Model[] = [
               `,
             galleryItems: [
               {
-                url: `/assets/images/model/I62/1.jpg`,
+                url: `assets/images/model/I62/1.jpg`,
               },
               {
-                url: `/assets/images/model/I62/2.jpg`,
+                url: `assets/images/model/I62/2.jpg`,
               },
               {
-                url: `/assets/images/model/I62/3.jpg`,
+                url: `assets/images/model/I62/3.jpg`,
               },
             ],
             specificationGroups: [
@@ -1172,12 +1172,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Il-86',
-    previewURL: '/assets/images/gallery/Il86.png',
+    previewURL: 'assets/images/gallery/Il86.png',
     name: 'Ilyushin IL-86',
     articul: '7001',
     factory: Enums.ModelFactory.Zvezda,
                 // Model Page
-                realPreviewURL: `/assets/images/model/I86/Aeroflot_Ilyushin_Il-86.jpg`,
+                realPreviewURL: `assets/images/model/I86/Aeroflot_Ilyushin_Il-86.jpg`,
                 shortDescription: 'Широкофюзеляжный самолёт',
                 description: `
                   <p>Ил-86 — советский четырёхдвигательный широкофюзеляжный пассажирский самолёт 1-го класса для авиалиний средней протяжённости, спроектированный в КБ Ильюшина. По классификации НАТО — «Camber» («Изогнутый», «Выпуклый»). Первый и самый массовый советский пассажирский широкофюзеляжный самолёт. Производился серийно в 1980—1997 годах на Воронежском авиационном заводе. Всего было выпущено 106 самолётов.</p>
@@ -1186,13 +1186,13 @@ export const Models: Interfaces.Model[] = [
                   `,
                 galleryItems: [
                   {
-                    url: `/assets/images/model/I86/1.jpg`,
+                    url: `assets/images/model/I86/1.jpg`,
                   },
                   {
-                    url: `/assets/images/model/I86/2.jpg`,
+                    url: `assets/images/model/I86/2.jpg`,
                   },
                   {
-                    url: `/assets/images/model/I86/3.jpg`,
+                    url: `assets/images/model/I86/3.jpg`,
                   },
                 ],
                 specificationGroups: [
@@ -1251,12 +1251,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'L-410',
-    previewURL: '/assets/images/gallery/L-410.png',
+    previewURL: 'assets/images/gallery/L-410.png',
     name: 'Let L-410 Turbolet',
     articul: '144104',
     factory: Enums.ModelFactory.EasternExpress,
                     // Model Page
-                    realPreviewURL: `/assets/images/model/L410/L_410_NG_.jpg`,
+                    realPreviewURL: `assets/images/model/L410/L_410_NG_.jpg`,
                     shortDescription: 'Модель воздушного судна',
                     description: `
                       <p>Let L-410 «Turbolet» (другие названия: Л-410, Лет-410, «Турболёт», Элли) — лёгкий многоцелевой двухмоторный самолёт для местных воздушных линий (МВЛ). Разработан в 1966—1967 годах конструкторским бюро чехословацкого авиационного завода Let Kunovice (ныне — чешский завод Aircraft Industries). Предназначен для эксплуатации на неподготовленных грунтовых, травяных, снежных площадках, а также на аэродромах с короткими ВПП. Способен перевезти до 19 пассажиров или 1800 кг груза на расстояние до 1500 км. Использует американские двигатели GE H80-200 (GE Aviation Czech s.r.o), после завершения сертификации российского турбовинтового двигателя ВК-800 (АО «Уральский завод гражданской авиации» и АО «ОДК–Климов») предполагается устанавливать его.</p>
@@ -1266,13 +1266,13 @@ export const Models: Interfaces.Model[] = [
                       `,
                     galleryItems: [
                       {
-                        url: `/assets/images/model/L410/1.jpg`,
+                        url: `assets/images/model/L410/1.jpg`,
                       },
                       {
-                        url: `/assets/images/model/L410/2.jpg`,
+                        url: `assets/images/model/L410/2.jpg`,
                       },
                       {
-                        url: `/assets/images/model/L410/3.jpg`,
+                        url: `assets/images/model/L410/3.jpg`,
                       },
                     ],
                     specificationGroups: [
@@ -1339,12 +1339,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'MC21-300',
-    previewURL: '/assets/images/gallery/MC21_300.png',
+    previewURL: 'assets/images/gallery/MC21_300.png',
     name: 'MC-21-300',
     articul: '7033',
     factory: Enums.ModelFactory.Zvezda,
                         // Model Page
-                        realPreviewURL: `/assets/images/model/MC21/russia_delays_mc-21_again_deliveries_to_start_in_2025-scaled.jpg`,
+                        realPreviewURL: `assets/images/model/MC21/russia_delays_mc-21_again_deliveries_to_start_in_2025-scaled.jpg`,
                         shortDescription: 'Среднемагистральный пассажирский самолёт',
                         description: `
                           <p>МС-21 («Магистральный самолёт XXI века») — российский среднемагистральный узкофюзеляжный пассажирский самолёт. Программа семейства ближне-среднемагистральных самолётов МС-21 разрабатывается корпорацией «Иркут» совместно с входящим в её состав ОКБ Яковлева. Предполагалось, что при запуске серийного производства самолёт получит наименование «Як-242», но впоследствии от него отказались.</p>
@@ -1354,13 +1354,13 @@ export const Models: Interfaces.Model[] = [
                           `,
                         galleryItems: [
                           {
-                            url: `/assets/images/model/MC21/1.jpg`,
+                            url: `assets/images/model/MC21/1.jpg`,
                           },
                           {
-                            url: `/assets/images/model/MC21/2.jpg`,
+                            url: `assets/images/model/MC21/2.jpg`,
                           },
                           {
-                            url: `/assets/images/model/MC21/3.jpg`,
+                            url: `assets/images/model/MC21/3.jpg`,
                           },
                         ],
                         specificationGroups: [
@@ -1411,12 +1411,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Mig-23',
-    previewURL: '/assets/images/gallery/Mig23.png',
+    previewURL: 'assets/images/gallery/Mig23.png',
     name: 'Mikoyan MiG-23',
     articul: '12614',
     factory: Enums.ModelFactory.Academy,
                             // Model Page
-                            realPreviewURL: `/assets/images/model/Mg23/Mig-23-DNST8908431_JPG.jpg`,
+                            realPreviewURL: `assets/images/model/Mg23/Mig-23-DNST8908431_JPG.jpg`,
                             shortDescription: 'Многоцелевой истребитель',
                             description: `
                               <p>МиГ-23 (по кодификации НАТО: Flogger в переводе с англ. — «Бичеватель») — советский многоцелевой истребитель третьего поколения с верхним расположением крыла изменяемой стреловидности разработки ОКБ-155.</p>
@@ -1425,13 +1425,13 @@ export const Models: Interfaces.Model[] = [
                               `,
                             galleryItems: [
                               {
-                                url: `/assets/images/model/Mg23/1.jpg`,
+                                url: `assets/images/model/Mg23/1.jpg`,
                               },
                               {
-                                url: `/assets/images/model/Mg23/2.jpg`,
+                                url: `assets/images/model/Mg23/2.jpg`,
                               },
                               {
-                                url: `/assets/images/model/Mg23/3.jpg`,
+                                url: `assets/images/model/Mg23/3.jpg`,
                               },
                             ],
                             specificationGroups: [
@@ -1486,12 +1486,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Mig-29',
-    previewURL: '/assets/images/gallery/Mig29.png',
+    previewURL: 'assets/images/gallery/Mig29.png',
     name: 'Mig-29',
     articul: '12615',
     factory: Enums.ModelFactory.Academy,
                                 // Model Page
-                                realPreviewURL: `/assets/images/model/Mg29/VVS_100th_IMG_0691_(7727464290)_(cropped).jpg`,
+                                realPreviewURL: `assets/images/model/Mg29/VVS_100th_IMG_0691_(7727464290)_(cropped).jpg`,
                                 shortDescription: 'Многоцелевой истребитель',
                                 description: `
                                   <p>МиГ-29 (по кодификации НАТО: Fulcrum — «Точка опоры») — советский и российский многоцелевой истребитель четвёртого поколения, разработанный в 1970-х годах в Опытном конструкторском бюро имени А. И. Микояна (ныне — АО «Российская самолётостроительная корпорация „МиГ“», с 01 июня 2022 года реорганизовано путем вхождения в состав ПАО "ОАК") в Москве.</p>
@@ -1501,13 +1501,13 @@ export const Models: Interfaces.Model[] = [
                                   `,
                                 galleryItems: [
                                   {
-                                    url: `/assets/images/model/Mg29/1.jpg`,
+                                    url: `assets/images/model/Mg29/1.jpg`,
                                   },
                                   {
-                                    url: `/assets/images/model/Mg29/2.jpg`,
+                                    url: `assets/images/model/Mg29/2.jpg`,
                                   },
                                   {
-                                    url: `/assets/images/model/Mg29/3.jpg`,
+                                    url: `assets/images/model/Mg29/3.jpg`,
                                   },
                                 ],
                                 specificationGroups: [
@@ -1562,12 +1562,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Sukhoi_Superjet_100',
-    previewURL: '/assets/images/gallery/SukhoiSuperjet100.png',
+    previewURL: 'assets/images/gallery/SukhoiSuperjet100.png',
     name: 'Sukhoi Superjet 100',
     articul: '7009',
     factory: Enums.ModelFactory.Zvezda,
                     // Model Page
-                    realPreviewURL: `/assets/images/model/SSj/ssj-100_large.jpeg`,
+                    realPreviewURL: `assets/images/model/SSj/ssj-100_large.jpeg`,
                     shortDescription: 'Ближнемагистральный самолёт',
                     description: `
                       <p>Sukhoi Superjet 100 — российский ближнемагистральный узкофюзеляжный пассажирский самолёт, предназначенный для перевозки от 87 до 108 пассажиров на дальность 3 050 или 4 600 км. Разработан компанией «Гражданские самолёты Сухого» (с 17 февраля 2020 года является филиалом ПАО «Корпорация Иркут» — «Гражданские самолёты») при участии ряда иностранных компаний (см. ниже). Первый крупносерийный пассажирский самолёт, разработанный в России и бывшем СССР после распада СССР.</p>
@@ -1576,13 +1576,13 @@ export const Models: Interfaces.Model[] = [
                       `,
                     galleryItems: [
                       {
-                        url: `/assets/images/model/SSj/1.jpg`,
+                        url: `assets/images/model/SSj/1.jpg`,
                       },
                       {
-                        url: `/assets/images/model/SSj/2.jpg`,
+                        url: `assets/images/model/SSj/2.jpg`,
                       },
                       {
-                        url: `/assets/images/model/SSj/3.jpg`,
+                        url: `assets/images/model/SSj/3.jpg`,
                       },
                     ],
                     specificationGroups: [
@@ -1645,12 +1645,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Tupolev_Tu-154M',
-    previewURL: '/assets/images/gallery/Tu154M.png',
+    previewURL: 'assets/images/gallery/Tu154M.png',
     name: 'Tupolev Tu-154M',
     articul: '7004',
     factory: Enums.ModelFactory.Zvezda,
                         // Model Page
-                        realPreviewURL: `/assets/images/model/T54/5.jpg`,
+                        realPreviewURL: `assets/images/model/T54/5.jpg`,
                         shortDescription: 'Реактивный авиалайнер',
                         description: `
                           <p>Ту-154 (по кодификации НАТО: Careless) — советский и российский трёхдвигательный реактивный пассажирский авиалайнер и транспортный самолет 1-го класса для авиалиний средней протяжённости, рассчитанный на перевозку 152—180 пассажиров. Разработан в 1960-х годах в СССР в ОКБ Туполева.</p>
@@ -1660,13 +1660,13 @@ export const Models: Interfaces.Model[] = [
                           `,
                         galleryItems: [
                           {
-                            url: `/assets/images/model/T54/1.jpg`,
+                            url: `assets/images/model/T54/1.jpg`,
                           },
                           {
-                            url: `/assets/images/model/T54/2.jpg`,
+                            url: `assets/images/model/T54/2.jpg`,
                           },
                           {
-                            url: `/assets/images/model/T54/3.jpg`,
+                            url: `assets/images/model/T54/3.jpg`,
                           },
                         ],
                         specificationGroups: [
@@ -1729,12 +1729,12 @@ export const Models: Interfaces.Model[] = [
   },
   {
     slug: 'Tupolev_Tu-144',
-    previewURL: '/assets/images/gallery/TupolevTu144.png',
+    previewURL: 'assets/images/gallery/TupolevTu144.png',
     name: 'Tupolev Tu-144',
     articul: '214478',
     factory: Enums.ModelFactory.Modelist,
                             // Model Page
-                            realPreviewURL: `/assets/images/model/T44/339801main_EC97-44203-3_full.jpg`,
+                            realPreviewURL: `assets/images/model/T44/339801main_EC97-44203-3_full.jpg`,
                             shortDescription: 'Сверхзвуковой пассажирский самолёт',
                             description: `
                               <p>Ту-144 (по кодификации НАТО: Charger) — советский сверхзвуковой пассажирский самолёт 1-го класса, разработанный КБ «Туполев» в 1960-х годах, производившийся в Воронеже. Первый испытательный полёт совершил 31 декабря 1968 года, что стало первым в мире полётом сверхзвукового пассажирского самолёта (британско-французский «Конкорд» совершил первый испытательный полёт 2 марта 1969 года). 5 июня 1969 года впервые в истории сверхзвуковой пассажирской авиации преодолел звуковой барьер (первым был пикирующий на максимальной скорости с большой высоты дозвуковой DC-8).</p>
@@ -1744,13 +1744,13 @@ export const Models: Interfaces.Model[] = [
                               `,
                             galleryItems: [
                               {
-                                url: `/assets/images/model/T44/1.jpg`,
+                                url: `assets/images/model/T44/1.jpg`,
                               },
                               {
-                                url: `/assets/images/model/T44/2.jpg`,
+                                url: `assets/images/model/T44/2.jpg`,
                               },
                               {
-                                url: `/assets/images/model/T44/3.jpg`,
+                                url: `assets/images/model/T44/3.jpg`,
                               },
                             ],
                             specificationGroups: [
