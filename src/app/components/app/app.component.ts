@@ -30,7 +30,7 @@ export class AppComponent extends BaseComponent implements OnInit {
       activeIcon: '/assets/images/navigation/how-to-make.png',
     },
     {
-      route: '/achivements',
+      route: '/achievements',
       name: 'Награды',
       icon: '/assets/images/navigation/achivements-lines.png',
       activeIcon: '/assets/images/navigation/achivements.png',
